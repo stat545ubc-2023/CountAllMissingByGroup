@@ -1,0 +1,69 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# CountAllMissingByGroup
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of CountAllMissingByGroup is to count NA cells per specified group given an input data frame.
+
+## Installation
+
+You can install the development version of CountAllMissingByGroup like so:
+
+#``` {r install}
+# install.packages("devtools")
+#devtools::install_github("stat545ubc-2023/CountAllMissingByGroup")
+#```
+
+## Examples
+## Example 1:
+Count the missing values per month, in the airquality data frame by month:
+
+```{r example}
+library(CountAllMissingByGroup)
+CountAllMissingByGroup(airquality, Month)
+
+```
+
+Retain the grouping column in the output with the `.groups` argument
+```{r examplekeepgroup}
+library(CountAllMissingByGroup)
+CountAllMissingByGroup(airquality, Month, .groups = "keep")
+
+```
+
+## Example 2 
+Count the number of missing values (none) by Species in the `iris` data set 
+
+```{r exampleiris}
+CountAllMissingByGroup(iris, Species)
+```
+
+## Example 3
+Count the number of missing values for each creature in the starwards data set from dplyr
+```{r examplestarwars}
+CountAllMissingByGroup(dplyr::starwars, name)
+```
+ 
+# Example 4 
+Count the number of missing values for each species in the starwards data set from dplyr and keep the grouping variable
+```{r examplestarwars2}
+CountAllMissingByGroup(dplyr::starwars, species, .groups = "keep")
+```
+
+Count missing
+
