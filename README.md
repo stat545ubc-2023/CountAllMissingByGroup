@@ -10,7 +10,41 @@ The goal of CountAllMissingByGroup is to count NA cells per specified group give
 
 You can install the development version of CountAllMissingByGroup like so:
 
-# `{r install} # install.packages("devtools") #devtools::install_github("stat545ubc-2023/CountAllMissingByGroup") #`
+``` r
+# install.packages("devtools")
+devtools::install_github("stat545ubc-2023/CountAllMissingByGroup")
+#> Downloading GitHub repo stat545ubc-2023/CountAllMissingByGroup@HEAD
+#> rlang     (1.1.1 -> 1.1.2) [CRAN]
+#> lifecycle (1.0.3 -> 1.0.4) [CRAN]
+#> withr     (2.5.0 -> 2.5.2) [CRAN]
+#> vctrs     (0.6.3 -> 0.6.4) [CRAN]
+#> utf8      (1.2.3 -> 1.2.4) [CRAN]
+#> fansi     (1.0.4 -> 1.0.5) [CRAN]
+#> Installing 6 packages: rlang, lifecycle, withr, vctrs, utf8, fansi
+#> Installing packages into '/private/var/folders/k6/glps726n55lgfckf3sxkf8f80000gn/T/RtmpXvGe0A/temp_libpath72d535ccdf38'
+#> (as 'lib' is unspecified)
+#> 
+#>   There are binary versions available but the source versions are later:
+#>           binary source needs_compilation
+#> rlang      1.1.1  1.1.2              TRUE
+#> lifecycle  1.0.3  1.0.4             FALSE
+#> withr      2.5.1  2.5.2             FALSE
+#> utf8       1.2.3  1.2.4              TRUE
+#> 
+#> 
+#> The downloaded binary packages are in
+#>  /var/folders/k6/glps726n55lgfckf3sxkf8f80000gn/T//RtmpISwiSj/downloaded_packages
+#> installing the source packages 'rlang', 'lifecycle', 'withr', 'utf8'
+#> ── R CMD build ─────────────────────────────────────────────────────────────────
+#> * checking for file ‘/private/var/folders/k6/glps726n55lgfckf3sxkf8f80000gn/T/RtmpISwiSj/remotes736b33cd3a15/stat545ubc-2023-CountAllMissingByGroup-0fb4b33/DESCRIPTION’ ... OK
+#> * preparing ‘CountAllMissingByGroup’:
+#> * checking DESCRIPTION meta-information ... OK
+#> * checking for LF line-endings in source and make files and shell scripts
+#> * checking for empty or unneeded directories
+#> * building ‘CountAllMissingByGroup_0.1.0.0000.tar.gz’
+#> Installing package into '/private/var/folders/k6/glps726n55lgfckf3sxkf8f80000gn/T/RtmpXvGe0A/temp_libpath72d535ccdf38'
+#> (as 'lib' is unspecified)
+```
 
 ## Examples
 
