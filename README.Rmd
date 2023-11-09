@@ -24,10 +24,10 @@ The goal of CountAllMissingByGroup is to count NA cells per specified group give
 
 You can install the development version of CountAllMissingByGroup like so:
 
-#``` {r install}
+``` {r install}
 # install.packages("devtools")
-#devtools::install_github("stat545ubc-2023/CountAllMissingByGroup")
-#```
+devtools::install_github("stat545ubc-2023/CountAllMissingByGroup")
+```
 
 ## Examples
 ## Example 1:
