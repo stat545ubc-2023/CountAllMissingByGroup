@@ -18,13 +18,13 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of CountAllMissingByGroup is to count NA cells per specified group given an input data frame.
+The goal of this R package `CountAllMissingByGroup` is to count NA cells per specified group given an input data frame. There is one function is this package, also called `CountAllMissingByGroup`.
 
 ## Installation
 
 You can install the development version of CountAllMissingByGroup like so:
 
-``` {r install}
+``` {r install, results='hide'}
 # install.packages("devtools")
 devtools::install_github("stat545ubc-2023/CountAllMissingByGroup")
 ```

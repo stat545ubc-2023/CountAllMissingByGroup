@@ -5,7 +5,7 @@ Authors@R:
     c(person("Sidney", "Saint", , "sasaint@uwaterloo.ca", role = c("aut", "cre")),
     person("Lucy", "Gao", , role = c("aut")),
     person("STAT545", "Team", , role = c("aut")))
-Description: Counts NA cells per specified group given an input data frame.
+Description: This package countains a function to count missing values per specified group given an input data frame.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
